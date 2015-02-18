@@ -4,7 +4,7 @@ teamManagerAppApp.config(['$routeProvider', '$locationProvider', function ($rout
     $routeProvider.when('/team_manager_app/index', {
         templateUrl: '/team_manager_app/views/index',
         activeTab: 'Team managerApp',
-        controller: 'IndexCtrl'
+        controller: 'teamIndexCtrl'
     });
 }]).run(['NavBarService', function (NavBarService) {
 // Register the main nav item, if any

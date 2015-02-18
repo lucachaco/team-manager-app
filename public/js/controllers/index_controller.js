@@ -1,4 +1,5 @@
 'use strict';
-teamManagerAppApp.controller('IndexCtrl', ['$scope', 'TeamManagerAppService', 'CoreCommon', function($scope, TeamManagerAppService, CoreCommon) {
-    $scope.name='World';
+teamManagerAppApp.controller('teamIndexCtrl', ['$scope',  'CoreCommon', function($scope, CoreCommon) {
+    $scope.name='World2';
+    alert("jj");
 }])
