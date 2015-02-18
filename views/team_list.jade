@@ -1,0 +1,10 @@
+div.outputMgrApp
+    div.commonCollection
+        .sectionOutputHeader
+            .sectionWidth
+                span.sectionTitle.translate Output Manager
+                ul.button-group.output-button-group.right
+                    li
+                        a.button-small.newDashboard.translate(href='/output/create', ng-if="hasPermissions") Create New Output
+            .clearfix
+        core-grid(config="coreGridConfig", data="viewModel")

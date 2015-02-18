@@ -2,7 +2,7 @@
 var teamManagerAppApp = angular.module('teamManagerAppApp', []);
 teamManagerAppApp.config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
     $routeProvider.when('/team_manager_app/index', {
-        templateUrl: '/team_manager_app/views/index',
+        templateUrl: '/team_manager_app/views/team_list',
         activeTab: 'Team managerApp',
         controller: 'teamIndexCtrl'
     });
